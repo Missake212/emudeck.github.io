@@ -3,13 +3,13 @@
 
 Website: [https://shadps4.net/](https://shadps4.net/)
 
-FAQ: [https://shadps4.net/index.php/faq/](https://shadps4.net/index.php/faq/)
+FAQ: [https://shadps4.net/about/faq/](https://shadps4.net/about/faq/)
 
 GitHub: [https://github.com/shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4)
 
-Compatibility List: [https://github.com/shadps4-emu/shadps4-game-compatibility](https://github.com/shadps4-emu/shadps4-game-compatibility)
+Compatibility List: [https://github.com/shadps4-compatibility/shadps4-game-compatibility/](https://github.com/shadps4-compatibility/shadps4-game-compatibility/)
 
-shadps4 Wiki: [https://wiki.shadps4.net/index.php?title=Main_Page](https://shadps4.net/compatibility)
+shadps4 Wiki: [https://github.com/shadps4-emu/shadPS4/wiki](https://github.com/shadps4-emu/shadPS4/wiki)
 
 ***
 
