@@ -21,7 +21,6 @@ shadPS4 Wiki: [https://github.com/shadps4-emu/shadPS4/wiki](https://github.com/s
     - [How to Update shadPS4](#how-to-update-shadps4)
     - [How to Launch shadPS4 in Desktop Mode](#how-to-launch-shadps4-in-desktop-mode)
     - [File Formats](#shadps4-file-formats)
-    - [Steam ROM Manager Parsers](#steam-rom-manager-parsers)
 
 ***
 
@@ -97,13 +96,6 @@ shadps4/
 [Back to the Top](#shadps4-table-of-contents)
 
 shadPS4 uses normal folder format for games, simply place your game folder in `Emulation/storage/shadps4/games` to have your games show up in the UI.
-
-***
-
-### Steam ROM Manager Parsers
-[Back to the Top](#shadps4-table-of-contents)
-
-* PKG Format: Use the `Sony PlayStation 4 - ShadPS4 (Shortcut)` parser
 
 ***
 
