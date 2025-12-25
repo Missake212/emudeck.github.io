@@ -21,7 +21,6 @@ shadPS4 Wiki: [https://github.com/shadps4-emu/shadPS4/wiki](https://github.com/s
     - [How to Update shadPS4](#how-to-update-shadps4)
     - [How to Launch shadPS4 in Desktop Mode](#how-to-launch-shadps4-in-desktop-mode)
     - [File Formats](#shadps4-file-formats)
-        - [PKG and RAP File Format](#pkg-and-rap-file-format)
     - [Steam ROM Manager Parsers](#steam-rom-manager-parsers)
 
 ***
@@ -29,7 +28,7 @@ shadPS4 Wiki: [https://github.com/shadps4-emu/shadPS4/wiki](https://github.com/s
 ## Getting Started with shadPS4
 [Back to the Top](#shadps4-table-of-contents)
 
-In order to play a game on shadPS4, you need to install the games through the shadPS4 UI. In desktop mode, open shadPS4, either in the application menu or through its shortcut in `Emulation/tools/launchers/shadps4.ps1`. In shadPS4, click File, click Install Packages(PKG) and select your game, this will install it to Emulation/storage/shadps4/games
+In order to play a game on shadPS4, you need to put your game folder in the `Emulation/storage/shadps4/games` folder.
 
 Read the [Configuration](#shadps4-configuration) section to learn more about shadPS4 and its folder locations.
 
@@ -52,9 +51,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Saves:
     * Folder: `Emulation/saves/shadps4/saves`
 
-* Your game will not show in the shadPS4 UI until you add it manually through the `Install Packages(PKG)` option under `File` in the top left.
-
-* No BIOS is needed for shadPS4
+* BIOS: You will need firmware modules for some games to work, more information can be found [here](https://github.com/shadps4-emu/shadPS4/wiki/I.-Quick-start-%5BUsers%5D#4-dumping-firmware-modules)
 
 #### Works With
 * Steam ROM Manager
@@ -99,14 +96,7 @@ shadps4/
 ### shadPS4 File Formats
 [Back to the Top](#shadps4-table-of-contents)
 
-- [PKG Format](#pkg-and-rap-file-format)
-
-#### PKG and RAP File Format
-[Back to the Top](#shadps4-file-formats)
-
-Install `.pkg` files directly through the shadPS4 GUI. `.pkg` files are installed to `Emulation/storage/shadps4/games/`.
-
-After that right click on the installed game and select "Create Desktop", copy the new .desktop file you'll find in your Desktop to `Emulation/roms/ps4/shortcuts/`
+shadPS4 uses normal folder format for games, simply place your game folder in `Emulation/storage/shadps4/games` to have your games show up in the UI.
 
 ***
 
@@ -124,9 +114,7 @@ After that right click on the installed game and select "Create Desktop", copy t
 
 1. In `Desktop Mode`, open shadPS4
 2. Skip this step if you have already added your games to shadPS4:
-    * Either:
-        * In the top left click, `File`, click `Install Packages (PKG)`, and install your PKG
-        * For more information, read the [File Formats](#shadps4-file-formats) section
+    * Add your game folder to the `Emulation/storage/shadps4/games` folder. For more information, read the [File Formats](#shadps4-file-formats) section
 3. Right click your game, click `Create Shortcut`, click `Create Desktop Shortcut`
 4. On your desktop, you should see an icon for your game. Move this icon to `Emulation/roms/ps4/shortcuts`
     * If your desktop shortcut contains special icons any special symbols (Ex: the copyright symbol, `©`), rename the desktop file to remove these symbols.
@@ -143,7 +131,7 @@ After that right click on the installed game and select "Create Desktop", copy t
 
 If you get an `Invalid file or folder` error message, you will need to change the `Alternative Emulator` in ES-DE for PlayStation 4 to `shadPS4 Shortcut [Standalone]`.
 
-You may also do this on a per-game basis if you are using a mix of folders and PKGs. On a game, press the `select ` button, scroll down and select `EDIT THIS GAME'S METADATA`, scroll down and select `ALTERNATIVE EMULATOR`, select PS4 and select the corresponding format.
+On a game, press the `select ` button, scroll down and select `EDIT THIS GAME'S METADATA`, scroll down and select `ALTERNATIVE EMULATOR`, select PS4 and select the corresponding format.
 
 Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-4](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-4), for additional information.
 
